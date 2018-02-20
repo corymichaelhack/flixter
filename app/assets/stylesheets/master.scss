@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:700');
 @import "bootstrap";
+
+.navbar {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: 700;
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+#navbar-brand {
+  color: red;
+}
