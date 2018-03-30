@@ -19,6 +19,7 @@ class User < ApplicationRecord
     # return enrolled_courses.include?(course)
 
    # Version 3 refactored code 
+    # AFTER ADDING --  has_many :enrolled_courses, through: :enrollments, source: :course -- ABOVE
      return enrolled_courses.include?(course) 
     end
 end
