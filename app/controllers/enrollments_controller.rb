@@ -13,7 +13,7 @@ class EnrollmentsController < ApplicationController
       )
 
       charge = Stripe::Charge.create(
-        :customer    => cuconfigstomer.id,
+        :customer    => customer.id,
         :amount      => @amount,
         :description => 'Rails Stripe customer',
         :currency    => 'usd'
