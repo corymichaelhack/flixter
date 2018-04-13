@@ -48,6 +48,8 @@ gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'
 gem 'font-awesome-rails'
+gem 'kaminari'
+gem 'bootstrap4-kaminari-views'
 
 
 source 'https://rails-assets.org' do
