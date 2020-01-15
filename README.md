@@ -1,24 +1,17 @@
-# README
+This project was built using Ruby and Ruby on Rails utilizing Firehose learn guides
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Flixter 
 
-Things you may want to cover:
+### `Features`
 
-* Ruby version
+#### Full CRUD for Course development 
+    Create Courses, Sections, and Lessons
 
-* System dependencies
+#### Image/Video upload 
+    Utilize Carrierwave for image/video upload 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Enrollment and Payment
+    Utilize Stripe for payments
+    
+##### Instructor Course Page 
+   
